@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.cont {
+
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/3602009/pexels-photo-3602009.jpeg?cs=srgb&dl=pexels-sergio-souza-3602009.jpg&fm=jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  /* padding-top: 250px; */
+  opacity: 5;
+  
+
+
+
+}
+
+img {
+  border-radius: 50px;
+  opacity: 2;
+}
+
+input {
+  /* height: 50px; */
+  width: 270px;
+  padding: 10px;
+  border: none;
+  border-radius: 40px;
+  font-weight: bolder;
+  /* opacity: 0.5; */
+
+
+}
+
+input[type="checkbox"] {
+  width: 15px;
+
+}
+
+.forgot label {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.forgot a {
+  font-weight: bolder;
+}
+
+
+
+button {
+  border: navy;
+  width: 250px;
+  padding: 10px;
+  border-radius: 40px;
+  color: #ffffff;
+  background-color: #0227215b;
+  font-weight: bolder;
+
+}
+
+.forgot a {
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+
+.fa-facebook {
+  color: blue;
+  font-size: 2.5rem;
+}
+
+.fa-google-plus {
+  color: red;
+  font-size: 2.5rem;
+  margin-right: 30px;
+
+}
+
+.fa-twitter {
+  color: rgb(23, 28, 31);
+  font-size: 2.5rem;
+  margin-left: 30px;
+}
+
+
+form {
+
+  /* text-align: center;
+  background-color: #66e0e4;
+  padding: 20px;
+  height: 70%;
+  width: 30%;
+  border-style: none;
+  opacity: 0.8; */
+}
+
+.nani{
+  text-align: center;
+  background-color: #66e0e4;
+  padding: 20px;
+  height: 65vh;
+  width: 30vw;
+  border-style: none;
+  opacity: 0.9;
+  margin-top: 200px;
+
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.nani:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+/* https: //images.pexels.com/photos/3602009/pexels-photo-3602009.jpeg?cs=srgb&dl=pexels-sergio-souza-3602009.jpg&fm=jpg */
+
+
+
+
+/* REGISTRATION */
+
+
+.register {
+  height: 1000px;
+  background-image: url(../images/pexelpetrol.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+  padding-top: 250px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:480px) { */
+
+  /* form { */
+    /* text-align: center;
+  background-color:#0BB664;
+  padding: 20px;
+  height: 70%;
+  width: 400px;
+  border-style: none;
+  opacity: 0.8; */
+/* 
+  }
+
+} */
+
+
+
+@media screen and (max-width:320px) {
+
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: 0BB664;
+    padding: 20px;
+    height: 620px;
+    width: 350px;
+    border-style: none;
+    opacity: 0.8;
+  }
+
+
+
+
+  .fa-twitter {
+    color: rgb(8, 46, 61);
+    font-size: 2.5rem;
+  }
+}
+
+
+@media screen and (min-width:280px) {
+  form {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: 0BB664;
+    padding: 20px;
+    height: 620px;
+    width: 350px;
+    border-style: none;
+    opacity: 0.8;
+
+
+  }
+
+
+
+
+
+}
